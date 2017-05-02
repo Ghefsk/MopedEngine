@@ -2,9 +2,9 @@
 #include <vector>
 #include <iostream>
 
-#include "Component.h"
-#include "Spells.h"
-#include "Controller.h"
+#include "../Component/Component.h"
+#include "../Spells/Spells.h"
+#include "../Controller/Controller.h"
 
 #pragma once
 
@@ -54,3 +54,6 @@ private:
 
 	float m_speedMulti = 250;
 };
+
+
+// hejhejhejehjehjehjehjehjehjehejehejehejehejehej
