@@ -1,6 +1,6 @@
 #include "Application.h"
-#include "Display.h"
-#include "Input.h"
+#include "Display\Display.h"
+#include "Input\Input.h"
 #include "States\PlayingState.h"
 #include <SFML\Window.hpp>
 

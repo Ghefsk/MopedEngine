@@ -1,6 +1,6 @@
 #include "MenuState.h"
-#include "Application.h"
-#include "Display.h"
+#include "../Application.h"
+#include "../Display/Display.h"
 
 
 
