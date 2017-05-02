@@ -1,6 +1,6 @@
 #include "Display.h"
 #include <memory>
-#include "Input.h"
+#include "../Input/Input.h"
 #include <iostream>
 
 

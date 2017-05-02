@@ -1,5 +1,5 @@
 #pragma once
-#include "States\GameState.h"
+#include "GameState.h"
 #include <SFML\Graphics.hpp>
 #include <SFML\Audio.hpp>
 

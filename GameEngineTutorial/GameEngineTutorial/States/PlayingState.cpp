@@ -1,8 +1,8 @@
 #include "PlayingState.h"
 #include <iostream>
 #include "../Application.h"
-#include "../Input.h"
-#include "../Display.h"
+#include "../Input/Input.h"
+#include "../Display/Display.h"
 
 
 namespace State
@@ -23,11 +23,11 @@ namespace State
 
 		if (Input::Joystick::getAxisPosition(sf::Joystick::Axis::X) > 30)
 		{
-			xSpeed = 0.1; 
+			xSpeed = 0.1f; 
 		}
 		else if (Input::Joystick::getAxisPosition(sf::Joystick::Axis::X) < -30)
 		{
-			xSpeed = -0.1;
+			xSpeed = -0.1f;
 		}
 		else
 		{
@@ -35,11 +35,11 @@ namespace State
 		}
 		if (Input::Joystick::getAxisPosition(sf::Joystick::Axis::Y) > 30)
 		{
-			ySpeed = 0.1;
+			ySpeed = 0.1f;
 		}
 		else if (Input::Joystick::getAxisPosition(sf::Joystick::Axis::Y) < -30)
 		{
-			ySpeed = -0.1;
+			ySpeed = -0.1f;
 		}
 		else
 		{

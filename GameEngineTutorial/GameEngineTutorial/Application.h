@@ -16,7 +16,6 @@ public:
 	Application();
 
 	void runMainLoop(); 
-	
 	void pushState(std::unique_ptr<State::Game_State> state);
 	void popState(); 
 	void changeState(std::unique_ptr<State::Game_State> state);
