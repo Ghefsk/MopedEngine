@@ -3,6 +3,7 @@
 #include "../Application.h"
 #include "../Input/Input.h"
 #include "../Display/Display.h"
+#include "../Factory.h"
 
 
 namespace State
@@ -24,10 +25,18 @@ namespace State
 		if (Input::Joystick::getAxisPosition(sf::Joystick::Axis::X) > 30)
 		{
 			xSpeed = 0.1f; 
+			Factory::createObject("Ludvig");
+
+			std::cout << "Ludvig är skapad" << std::endl;
+			
+			
+			
 		}
 		else if (Input::Joystick::getAxisPosition(sf::Joystick::Axis::X) < -30)
 		{
 			xSpeed = -0.1f;
+			Factory::getObject("Ludvig");
+			
 		}
 		else
 		{
@@ -43,9 +52,8 @@ namespace State
 		}
 		else
 		{
-			ySpeed = 0; 
+			ySpeed = 0;
 		}
-
 	}
 
 	}
