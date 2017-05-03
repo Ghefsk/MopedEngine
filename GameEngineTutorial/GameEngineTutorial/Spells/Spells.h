@@ -1,5 +1,5 @@
 #include <SFML\Graphics.hpp>
-#include "Component.h"
+#include "../Component/Component.h"
 #include <string>
 
 #pragma once

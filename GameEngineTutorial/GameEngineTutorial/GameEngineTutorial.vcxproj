@@ -136,6 +136,7 @@
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Component\Component.cpp" />
     <ClCompile Include="Display\Display.cpp" />
+    <ClCompile Include="Factory.cpp" />
     <ClCompile Include="GameObject\GameObject.cpp" />
     <ClCompile Include="Input\Input.cpp" />
     <ClCompile Include="Main.cpp" />
